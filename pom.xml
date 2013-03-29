@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jarlist</groupId>
+  <artifactId>jarlist</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>jarlist</name>
+  <description>lists jar files</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.0</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  <dependency>
+    <groupId>com.google.guava</groupId>
+    	<artifactId>guava</artifactId>
+    	<version>14.0.1</version>
+	</dependency>
+  	<dependency>
+  		<groupId>net.sf.jopt-simple</groupId>
+  		<artifactId>jopt-simple</artifactId>
+  		<version>4.4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.thoughtworks.paranamer</groupId>
+  		<artifactId>paranamer</artifactId>
+  		<version>2.5.2</version>
+  	</dependency>  	
+  </dependencies>
+</project>
